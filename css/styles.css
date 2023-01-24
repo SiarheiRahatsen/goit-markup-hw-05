@@ -206,6 +206,7 @@ body {
 }
 .card-image-figure {
     display: inline-block;
+    margin: 0px;
 }
 .card-image-no-gap {
     display: block;
