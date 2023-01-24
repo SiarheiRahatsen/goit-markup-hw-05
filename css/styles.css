@@ -214,6 +214,7 @@ body {
     object-fit: cover;
 }
 .card-image-figcaprion {
+    position: relative;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -226,6 +227,7 @@ body {
     padding-bottom: 27px;
     margin: 0 auto;
     margin-top: -68px;
+    z-index: 999;
 }
 .thumb {
     height: 260px;
