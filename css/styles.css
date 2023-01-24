@@ -224,6 +224,7 @@ body {
     background-color: rgba(47, 48, 58, 0.8);
     padding-top: 27px;
     padding-bottom: 27px;
+    margin: 0 auto;
 }
 .thumb {
     height: 260px;
