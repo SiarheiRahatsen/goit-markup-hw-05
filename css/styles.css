@@ -86,11 +86,19 @@ body {
     text-decoration: none;
     color: #212121;
     padding-left: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
     color: var(--brand-color);
+    border: 0px solid;
+    border-bottom: 4px solid;
+    border-radius: 2px;
 }
 .pointer {
     cursor: pointer;
