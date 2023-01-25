@@ -85,7 +85,8 @@ body {
 .site-nav .link {
     text-decoration: none;
     color: #212121;
-    padding-left: 46px;
+    margin-left: 46px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
