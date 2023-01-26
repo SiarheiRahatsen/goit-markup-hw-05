@@ -190,9 +190,12 @@ body {
     padding: 0%;
 }
 .post-section-detail {
-    position: absolute;
     margin: 0%;
     padding: 0%;
+    cursor: pointer; 
+}
+.post-section-detail-one {
+    position: absolute;
     cursor: pointer;
     overflow: hidden;
 }
@@ -203,10 +206,10 @@ body {
     position: absolute;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.post-section-detail:hover .post-section-photo {
+.post-section-detail-one:hover .post-section-photo {
     top: -100%;
 }
-.post-section-detail:hover .post-section-hidden {
+.post-section-detail-one:hover .post-section-hidden {
     top: 0%;
 }
 .post-section-photo,
