@@ -198,6 +198,7 @@ body {
 .post-section-detail:focus,
 .post-section-detail:active {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: translatex(0);
 }
 .post-section-caption {
     margin: 0 auto;
@@ -231,9 +232,9 @@ body {
     margin-right: auto;
     overflow: hidden;
   }
-  .box:hover .post-section-detail {
+  /* .box:hover .overlay {
     transform: translatex(0);
-  }
+  } */
   .overlay {
     position: absolute;
     top: 0px;
