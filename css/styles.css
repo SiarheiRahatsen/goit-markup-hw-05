@@ -231,7 +231,7 @@ body {
     margin-right: auto;
     overflow: hidden;
   }
-  .box:hover .overlay {
+  .box:hover .post-section-detail {
     transform: translatex(0);
   }
   .overlay {
