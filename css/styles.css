@@ -236,6 +236,9 @@ body {
   .box:hover .overlay {
     transform: translatex(0);
   }
+  .post-section-caption:hover .overlay {
+    transform: translatex(0);
+  }
   .overlay {
     position: absolute;
     top: 0px;
@@ -294,6 +297,7 @@ body {
     border-bottom: 1px solid #ECECEC;
 }
 .main-article {
+    display: inline-block;
     width: 1600px;
     margin: 0 auto;
     padding: 0px;
