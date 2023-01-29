@@ -101,7 +101,7 @@ body {
     border-radius: 2px; */
 }
 .link::after {
-    content: " ";
+    content: "000 ";
     display: inline-block;
     color: #212121;
     width: 100%;
