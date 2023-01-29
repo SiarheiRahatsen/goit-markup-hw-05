@@ -108,7 +108,7 @@ body {
     height: 4px;
     margin-bottom: -10px;
     border-radius: 4px;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .link:hover::after {
     color: var(--brand-color);
