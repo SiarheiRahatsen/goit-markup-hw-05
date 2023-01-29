@@ -113,7 +113,7 @@ body {
     visibility: hidden;
 }
 .link:hover::after {
-    color: var(--brand-color);
+    background: var(--brand-color);
     visibility: visible;
 }
 .pointer {
